@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Cadastro liga dos astronautas</h1>
+    <form action=""  method="post">
+        <label for="Inome">Nome </label>
+        <input type="text" name="nome" id="Inome"> <br> <br>
+        <label for="Iemail">E-mail</label>
+        <input type="email" name="email" id="Iemail"> <br> <br>
+        <label for="Isenha">Senha </label> 
+        <input type="password" name="senha" id="Isenha">  <br>
+        <label for="IdataNasc">Data nascimento</label>
+        <input type="date" name="data" id="IdataNasc">
+        <label for="Igenero" > Gender:  </label>
+        M<input type="radio" name="genero" id="IgeneroM"> 
+        F<input type="radio" name="genero" id="IgeneroF"><br>
+        <label for="Ifoto">Foto</label>
+        <input type="file" name="foto" id="Ifoto"> <br> <br>
+         Nascionalidade <input list="Inascionalidade">
+         <datalist id="Inascionalidade">
+            <option value="brasil">Brasileiro</option>
+            <option value="russia">russo</option>
+            <option value="America">Americano</option>
+         </datalist> <br> <br>
+         principal qualidade <br>
+        <label for="IqualidadeInt">Inteligencia</label>
+        <input type="checkbox" name="qualidadeint" id="IqualidadeInt">
+        <label for="IqualidadeFisic">Preparo fisico</label>
+        <input type="checkbox" name="qualidadeFisic" id="IqualidadeFisic">
+        <label for="IqualidadeRes">Resiliencia</label>
+        <input type="checkbox" name="qualidadeRes" id="IqualidadeRes"> <br>
+        <label for="IareaExplicativa"></label>
+        <textarea name="areaExplicativa" id="IareaExplicativa" placeholder="Porque você Gostaria de virar astronauta"></textarea>
+    </form>
+</body>
+</html>
