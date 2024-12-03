@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <p>
+            <label for="Inome">Nome: </label>
+            <input type="text" name="nome" id="Inome">
+        </p>
+        <p>
+            <label for="Icolor">Cor primária: </label>
+            <select name="color" id="Icolor">
+                <option value="yellow">Amarelo</option>
+                <option value="blue">Azul</option>
+                <option value="red">Vermelho</option>
+            </select>
+        </p>
+        <p>
+            <label for="iGosto">Gosta de programar? </label>
+           Sim <input type="radio" name="radio" id="iGosto" value="sim"> 
+           Não <input type="radio" name="radio" id="iGosto" value="Não"> 
+        </p>
+
+        <p>
+            <label for="ikwnolagde">Conhecimentos em programação Web: </label>
+        Html <input type="checkbox" name="developer-options" value="HTML"> 
+        Css <input type="checkbox" name="developer-options" value="CSS">
+        Javascript <input type="checkbox" name="developer-options" value="JAVASCRIPT">
+        Express <input type="checkbox" name="developer-options" value="EXPRESS">
+        </p>
+
+        <button type="button" onclick="showInfo()">Mostrar informações</button>
+    </form>
+</body>
+    <script src="script.js"></script>
+</html>
