@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mudando estilo com DOM</title>
+    <style>
+        p {
+            color: red; 
+        }
+    </style>
+</head>
+<body id="bodySelect">
+    <button type="button" onclick="setBlueBackground()">Change to blue color</button>
+    <button type="button" onclick="setTransparentBackground()">change Background to transparent</button>
+    <button type="button" onclick="setRedColor()">Set color to red</button>
+    <button type="button" onclick="removeRedColor()">Normal</button>
+    <button type="button" onclick="setAntiQueWhiteToBackground()">antiquewhite Background</button>
+    <button type="button" onmouseenter="passouAqui()" id="teste">FUNFANDO</button>
+    <p id="style-text">
+        Manipulando CSS via dom
+    </p>
+</body>
+<script src="script.js"></script>
+</html>
